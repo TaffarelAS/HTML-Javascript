@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: #fff3e0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        input{
+            height: 25px;
+            border-style: solid;
+            border-color: #ffcc80;
+            border-radius: 4px;
+            border-width: 1px;
+        }
+        button{
+            color: #fffddd;
+            width: 73px;
+            height: 31px;
+            border-style: none;
+            border-radius: 3px;
+            background-color: #fb8c00;
+            font-size: small;
+        }
+        #verificar{
+            font-style: italic;
+            font-weight: bold;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <h1>Você pode votar?</h1>
+
+    <p><strong>Digite sua idade:</strong></p>
+    <input type="text" id="idade"> <button onclick="clickMe()">Verificar</button>
+
+    <p id="verificar"></p>
+
+    <script src="ativ.js"></script>
+</body>
+</html>
