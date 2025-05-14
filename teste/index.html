@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .passar{
+            max-width: 5em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p>
+        <button onclick="clickMe()">Click-Me</button>
+    </p>
+
+    <p>Focus
+        <input type="text" onfocus="focar()">
+    </p>
+
+    <p>Blur
+        <input type="text" onblur="borrar()">
+    </p>
+
+    <p>Change
+        <input type="text" onchange="mudar()">
+    </p>
+
+    <p class="passar" onmouseover="passe()">
+        Passe o Mouse Aqui
+    </p>
+
+    <script src="eventos.js"></script>
+</body>
+
+</html>

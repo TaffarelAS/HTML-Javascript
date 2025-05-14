@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: #e3f2fd;
+        }
+        button{
+            color: white;
+            background-color: #1e88e5;
+            border: none;
+            width: 80px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        #mostrar{
+            font-style: italic;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Quais os seus favoritos?!</h1>
+
+    <p><strong>Filme favorito:</strong></p>
+    <input type="text" id="filme">
+
+    <p><strong>Música favorita:</strong></p>
+    <input type="text" id="musica">
+
+    <p><strong>Jogo favorito:</strong></p>
+    <input type="text" id="jogo"> <button onclick="clickMe()">Mostrar</button>
+
+    <p id="mostrar"><strong></strong></p>
+
+    <script src="ativ.js"></script>
+</body>
+</html>
