@@ -1,0 +1,15 @@
+.classe1{
+    width: 80px;
+    height: 50px;
+    padding: 100px;
+    border: 30px yellow solid;
+}
+.classe2{
+    background-color: aquamarine;
+    color: deeppink;
+}
+.classe3{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10px;
+}

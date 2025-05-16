@@ -1,0 +1,21 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+}
+
+div{
+    width: 250px;
+    height: 250px;
+    background-color: lightgray;
+    margin: 20px;
+}
+
+.class1{
+    background-color: lime;
+    border: 5px solid;
+    border-color: darkgreen;
+}
