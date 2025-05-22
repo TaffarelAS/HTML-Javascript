@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+
+<body>
+
+    <h1>Calculadora de Desconto</h1>
+    <main>
+        <div class="main">
+            <label>Preço do Produto:</label> <br>
+
+            <input type="number" id="preco"> <br>
+
+            <label>Porcentagem de desconto(%):</label> <br>
+
+            <input type="number" id="porcentagemDesc"> <button onclick="calcular()">Calcular</button>
+
+            <div class="container">
+                <div class="result" id="valorDesc">
+
+                </div>
+                <div class="result" id="precoFinal">
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+    <script src="calc.js"></script>
+</body>
+
+</html>
